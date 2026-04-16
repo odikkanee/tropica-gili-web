@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --color-sand-50: #fdfbf7;
+  --color-sand-100: #f5f2ed;
+  --color-sand-200: #ece7e0;
+  --color-sand-300: #e0d8cc;
+  --color-sand-400: #d1c4b3;
+  --color-sand-700: #6b594c;
+  --color-sand-900: #4a3f35;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    background: #fdfbf7;
+  }
+
+  body {
+    @apply font-sans antialiased bg-sand-50 text-sand-900;
+    background-image:
+      radial-gradient(
+        circle at top left,
+        rgba(255, 107, 53, 0.08),
+        transparent 34%
+      ),
+      radial-gradient(
+        circle at top right,
+        rgba(22, 163, 74, 0.06),
+        transparent 24%
+      ),
+      linear-gradient(180deg, #fffefb 0%, #fdfbf7 30%, #f8f4ed 100%);
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    @apply transition-colors duration-200;
+  }
+
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: rgba(255, 107, 53, 0.24);
+  }
+
+  :focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 3px rgba(255, 107, 53, 0.16),
+      0 0 0 6px rgba(253, 251, 247, 0.95);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .surface-card {
+    @apply rounded-[2rem] border border-sand-200/90 bg-white/92 shadow-[0_18px_60px_-32px_rgba(92,72,50,0.28)];
+  }
+
+  .section-kicker {
+    @apply inline-flex items-center gap-2 rounded-full border border-orange-500/20 bg-orange-500/10 px-4 py-2 text-sm font-bold text-orange-600;
+  }
+
+  .section-title {
+    @apply text-4xl font-extrabold tracking-tight text-sand-900 md:text-5xl;
+  }
+
+  .section-copy {
+    @apply text-lg leading-relaxed text-sand-700/80;
+  }
+
+  .soft-link {
+    @apply text-sm font-semibold text-sand-700 hover:text-orange-600;
+  }
+
+  .form-field {
+    @apply w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-3 text-sand-900 transition-colors placeholder:text-sand-400 focus:border-orange-500/50 focus:outline-none;
+  }
+}

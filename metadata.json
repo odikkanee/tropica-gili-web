@@ -1,0 +1,5 @@
+{
+  "name": "Tropica Gili Hotel",
+  "description": "A premium stay, work, and train destination in Gili Trawangan featuring a gym, co-working space, and restaurant.",
+  "requestFramePermissions": ["geolocation"]
+}
