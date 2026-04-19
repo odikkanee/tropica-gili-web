@@ -81,7 +81,7 @@ const roomOptions = [
       'Pool view',
       'Private bathroom',
       'Work desk',
-      'Breakfast + gym access',
+      'Breakfast + gym + co-working access',
     ],
   },
   {
@@ -145,6 +145,10 @@ const galleryImages = [
   {
     src: '/assets/img/coworking/co5.jpg',
     alt: 'Quiet co-working corner for focused work',
+  },
+  {
+    src: '/assets/img/gym/sauna.jpg',
+    alt: 'Recovery area inside the gym facility',
   },
 ]
 

@@ -16,7 +16,7 @@ const menuItems = [
     name: 'Grilled Fish',
     price: 'Rp 80k',
     desc: '160 gr Fish, 39 gr Protein.',
-    icon: <Leaf className="h-4 w-4" />,
+    icon: <Beef className="h-4 w-4" />,
   },
   {
     name: 'Tuna Steak',
@@ -40,13 +40,13 @@ const menuItems = [
     name: 'Grilled Chicken Burger',
     price: 'Rp 90k',
     desc: '160 gr Chicken, 39 gr Protein.',
-    icon: <Leaf className="h-4 w-4" />,
+    icon: <Beef className="h-4 w-4" />,
   },
    {
     name: 'Grilled Fish Burger',
     price: 'Rp 95k',
     desc: '160 gr Fish, 39 gr Protein.',
-    icon: <Leaf className="h-4 w-4" />,
+    icon: <Beef className="h-4 w-4" />,
   },
    {
     name: 'Protein Pancake',
@@ -118,26 +118,32 @@ const menuItems = [
     name: 'Chicken Dimsus',
     price: 'Rp 75k',
     desc: '20 gr Protein',
-    icon: <Leaf className="h-4 w-4" />,
+    icon: <Beef className="h-4 w-4" />,
   },
    {
     name: 'Crispy Fish Baguette',
     price: 'Rp 75k',
     desc: '36 gr Protein',
-    icon: <Leaf className="h-4 w-4" />,
+    icon: <Beef className="h-4 w-4" />,
   },
   {
     name: 'Grilled Beef Burger',
     price: 'Rp 90k',
     desc: '150 gr Protein, Beef, Vegetables, Potato',
-    icon: <Leaf className="h-4 w-4" />,
+    icon: <Beef className="h-4 w-4" />,
   },
   {
     name: 'Hawaiian Chicken Burger',
     price: 'Rp 90k',
     desc: '150 gr Protein, Egg, Pinaple, Vegetables, Potato',
-    icon: <Leaf className="h-4 w-4" />,
+    icon: <Beef className="h-4 w-4" />,
   },
+  {
+    name: 'Coconut',
+    price: 'Rp 30k',
+    desc: 'Cold & Normal',
+    icon: <Leaf className="h-4 w-4" />,
+  }
 
 ]
 
