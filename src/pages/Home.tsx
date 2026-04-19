@@ -144,10 +144,26 @@ const galleryImages = [
   },
   {
     src: '/assets/img/coworking/co5.jpg',
-    alt: 'Quiet co-working corner for focused work',
+    alt: 'Beach view from the co-working space',
   },
   {
     src: '/assets/img/gym/sauna.jpg',
+    alt: 'Recovery area inside the gym facility',
+  },
+   {
+    src: '/assets/img/poolview.jpeg',
+    alt: 'Enjoy your stay',
+  },
+  {
+    src: '/assets/img/restaurant/resto.jpg',
+    alt: 'Welcome to the restaurant',
+  },
+  {
+    src: '/assets/img/rooms/roomfor3.jpg',
+    alt: 'Standard triple room layout',
+  },
+   {
+    src: '/assets/img/gym/gym14.jpeg',
     alt: 'Recovery area inside the gym facility',
   },
 ]
@@ -523,13 +539,13 @@ export default function Home() {
                 Pick the room size that fits your trip, not just your budget
               </h2>
               <p className="section-copy">
-                Every stay includes breakfast and gym access, so the main
+                Every stay includes breakfast, gym and co-working access, so the main
                 decision is how much room you need and who you are traveling
                 with.
               </p>
             </div>
             <div className="rounded-[1.75rem] border border-orange-200 bg-orange-50 px-5 py-4 text-sm font-semibold text-sand-700 shadow-[0_12px_30px_-26px_rgba(255,107,53,0.46)]">
-              Rates shown are per night and include breakfast + gym access.
+              Rates shown are per night and include breakfast + gym + co-working access.
             </div>
           </div>
 
